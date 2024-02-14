@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #fff;
+    background: #0a0a0a url(Photos/Kovalev_v_Szilagyi_2013_Fencing_WCH_SMS-IN_t194135.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero {
+    background: linear-gradient(to right, #0097b9, #c71919);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects, .sample-packs {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-card, .pack {
+    background: #333;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+
+.projects .project-card, .sample-packs .pack {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.cta, button {
+    background-color: #0084b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cta:hover, button:hover {
+    background-color: #002ed6;
+}
+.footer-clean {
+    padding: 50px 0;
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-clean h3, .footer-clean ul, .footer-clean .social, .footer-clean p {
+    margin: 0 auto;
+    display: block;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-clean ul a {
+    color: #007eb9;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity: 1;
+}
+
+.item.social {
+    margin-top: 20px;
+}
+
+.item.social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.item.social > a:hover {
+    opacity: 0.9;
+}
+
+
+/*----------Intégration de l'image du réseau social et l'adapter aux formats de .item.social---------- */
+
+.item.social > a.facebook {
+    background-image: url('Photos/Logo FB.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item.social > a.twitter {
+    background-image: url('Photos/TwitterLogo_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item.social > a.instagram {
+    background-image: url('Photos/instagram-logo-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item.social > a.snapchat {
+    background-image: url('Photos/logo\ snap.webp');
+    background-position: 0px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
